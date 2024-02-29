@@ -1,5 +1,7 @@
 # vue-quiz
 
+![vue-quiz](./src/assets/images/vue-quiz.jpg)
+
 # Live Site
 
 https://vue-quizz.netlify.app/
