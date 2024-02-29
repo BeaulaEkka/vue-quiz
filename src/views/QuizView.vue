@@ -38,7 +38,7 @@ const onOptionSelected = (isCorrect) => {
 </script>
 
 <template>
-  <div>
+  <div class="questions-container">
     <QuizHeader :questionStatus="questionStatus" :barpercentage="barpercentage" />
     <!-- <header>
       <h4>Question {{ questionStatus }}</h4>
@@ -60,3 +60,20 @@ const onOptionSelected = (isCorrect) => {
     />
   </div>
 </template>
+
+<style scoped>
+.questions-container {
+  width: 60%;
+  margin: auto;
+}
+@media only screen and (max-width: 400px) {
+  .questions-container {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .questions-container {
+    width: 80%;
+  }
+}
+</style>

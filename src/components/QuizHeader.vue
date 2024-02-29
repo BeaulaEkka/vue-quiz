@@ -16,13 +16,24 @@ header {
   font-size: 30px;
 }
 .bar {
-  height: 30px;
-  width: 300px;
+  height: 20px;
+  width: 100%;
   border: 1px solid bisque;
 }
 .completion {
   height: 100%;
   width: 0%;
   background-color: bisque;
+}
+@media only screen and (max-width: 600px) {
+  .bar {
+    width: 95%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .bar {
+    width: 95%;
+  }
 }
 </style>
