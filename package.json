@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "vue": "^3.4.15",
+    "vue-confetti": "^2.3.0",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {

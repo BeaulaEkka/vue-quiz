@@ -7,7 +7,8 @@ const { numberOfCorrectAnswers, quizQuestionLength } = defineProps([
 
 <template>
   <div class="results">
-    <p>Your Results</p>
+    <h1 v-if="numberOfCorrectAnswers == quizQuestionLength">Congratulations, You are a genius!</h1>
+    <h1 v-else>Your score is :</h1>
     <h1>{{ numberOfCorrectAnswers }} / {{ quizQuestionLength }}</h1>
     <RouterLink to="/">Go Back</RouterLink>
   </div>

@@ -54,43 +54,9 @@
           { "id": 4, "label": "D", "text": "Colorful Style Sheets", "isCorrect": false }
         ]
       },
+
       {
         "id": 4,
-        "text": "What is the main purpose of a database management system (DBMS)?",
-        "options": [
-          { "id": 1, "label": "A", "text": "To create animations on websites", "isCorrect": false },
-          { "id": 2, "label": "B", "text": "To manage data efficiently", "isCorrect": true },
-          { "id": 3, "label": "C", "text": "To develop mobile applications", "isCorrect": false },
-          {
-            "id": 4,
-            "label": "D",
-            "text": "To create graphical user interfaces (GUIs)",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "text": "Which data structure uses a Last-In-First-Out (LIFO) approach?",
-        "options": [
-          { "id": 1, "label": "A", "text": "Queue", "isCorrect": false },
-          { "id": 2, "label": "B", "text": "Stack", "isCorrect": true },
-          { "id": 3, "label": "C", "text": "Linked List", "isCorrect": false },
-          { "id": 4, "label": "D", "text": "Tree", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 6,
-        "text": "What is the result of 2 + 2 * 2?",
-        "options": [
-          { "id": 1, "label": "A", "text": "6", "isCorrect": false },
-          { "id": 2, "label": "B", "text": "8", "isCorrect": false },
-          { "id": 3, "label": "C", "text": "4", "isCorrect": true },
-          { "id": 4, "label": "D", "text": "10", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 7,
         "text": "What does HTTP stand for?",
         "options": [
           { "id": 1, "label": "A", "text": "HyperText Transfer Protocol", "isCorrect": true },
@@ -108,130 +74,160 @@
           { "id": 3, "label": "C", "text": "C#", "isCorrect": false },
           { "id": 4, "label": "D", "text": "Ruby", "isCorrect": false }
         ]
-      },
-      {
-        "id": 9,
-        "text": "What is the purpose of a loop in programming?",
-        "options": [
-          { "id": 1, "label": "A", "text": "To store data", "isCorrect": false },
-          {
-            "id": 2,
-            "label": "B",
-            "text": "To execute a block of code multiple times",
-            "isCorrect": true
-          },
-          {
-            "id": 3,
-            "label": "C",
-            "text": "To perform mathematical calculations",
-            "isCorrect": false
-          },
-          { "id": 4, "label": "D", "text": "To define a function", "isCorrect": false }
-        ]
-      },
-      {
-        "id": 10,
-        "text": "Which data structure organizes elements in a sorted order?",
-        "options": [
-          { "id": 1, "label": "A", "text": "Queue", "isCorrect": false },
-          { "id": 2, "label": "B", "text": "Stack", "isCorrect": false },
-          { "id": 3, "label": "C", "text": "Array", "isCorrect": false },
-          { "id": 4, "label": "D", "text": "Binary Search Tree", "isCorrect": true }
-        ]
       }
     ]
   },
   {
     "id": 1,
-    "img": "https://images.pexels.com/photos/5412499/pexels-photo-5412499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "name": "Math",
+    "img": "https://images.pexels.com/photos/816608/pexels-photo-816608.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "name": "Space Exploration",
     "questions": [
       {
         "id": 1,
-        "text": "8 ÷ 2(2 + 2)",
+        "text": "Who was the first human to travel into space?",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "16",
+            "text": "Yuri Gagarin",
             "isCorrect": true
           },
           {
             "id": 2,
             "label": "B",
-            "text": "1",
+            "text": "Neil Armstrong",
             "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "8",
+            "text": "Buzz Aldrin",
             "isCorrect": false
           },
           {
             "id": 4,
             "label": "D",
-            "text": "24",
+            "text": "Alan Shepard",
             "isCorrect": false
           }
         ]
       },
       {
         "id": 2,
-        "text": "sqrt(64) * 9",
+        "text": "What is the closest planet to the Sun?",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "4",
+            "text": "Venus",
             "isCorrect": false
           },
           {
             "id": 2,
             "label": "B",
-            "text": "81",
+            "text": "Earth",
             "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "72",
+            "text": "Mercury",
             "isCorrect": true
           },
           {
             "id": 4,
             "label": "D",
-            "text": "144",
+            "text": "Mars",
             "isCorrect": false
           }
         ]
       },
       {
         "id": 3,
-        "text": "3 + 3 x 3 ÷ 3 - 3",
+        "text": "Which planet is known as the 'Red Planet'?",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "3",
-            "isCorrect": true
+            "text": "Jupiter",
+            "isCorrect": false
           },
           {
             "id": 2,
             "label": "B",
-            "text": "1",
-            "isCorrect": false
+            "text": "Mars",
+            "isCorrect": true
           },
           {
             "id": 3,
             "label": "C",
-            "text": "9",
+            "text": "Saturn",
             "isCorrect": false
           },
           {
             "id": 4,
             "label": "D",
             "text": "16",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which spacecraft was the first to land humans on the Moon?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Apollo 11",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Apollo 13",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Apollo 8",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Apollo 15",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What is the largest planet in our solar system?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Mars",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Saturn",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Jupiter",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Uranus",
             "isCorrect": false
           }
         ]
@@ -245,31 +241,31 @@
     "questions": [
       {
         "id": 1,
-        "text": "The Kreb Cycles occurs in the",
+        "text": "Which vitamin is essential for the absorption of calcium in the body?",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "Mitochondria",
-            "isCorrect": true
+            "text": "Vitamin A",
+            "isCorrect": false
           },
           {
             "id": 2,
             "label": "B",
-            "text": "Nucleus",
+            "text": "Vitamin B12",
             "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "Rough ER",
+            "text": "Vitamin C",
             "isCorrect": false
           },
           {
             "id": 4,
             "label": "D",
-            "text": "Cystol",
-            "isCorrect": false
+            "text": "Vitamin D",
+            "isCorrect": true
           }
         ]
       },
@@ -329,6 +325,66 @@
             "id": 4,
             "label": "D",
             "text": "2D shapes; 3D objects",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which organ is responsible for pumping blood throughout the body?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Brain",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Heart",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Lungs",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Liver",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Which part of the plant is responsible for photosynthesis?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Roots",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Leaves",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Stem",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Flowers",
             "isCorrect": false
           }
         ]
@@ -429,6 +485,66 @@
             "isCorrect": false
           }
         ]
+      },
+      {
+        "id": 4,
+        "text": "What is the chemical symbol for water?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "H2O",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "CO2",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "NaCl",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "O2",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Which gas do plants absorb during photosynthesis?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Oxygen",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Carbon Dioxide",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Nitrogen",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Hydrogen",
+            "isCorrect": false
+          }
+        ]
       }
     ]
   },
@@ -525,6 +641,397 @@
             "text": "16",
             "isCorrect": false
           }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Which is the longest river in the world?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Amazon",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Nile",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Yangtze",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Mississippi",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Which desert is the largest in the world?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Sahara",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Arabian",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Gobi",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Kalahari",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "img": "https://images.pexels.com/photos/18958295/pexels-photo-18958295/free-photo-of-man-in-front-of-colorful-mosaic.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "name": "General Knowledge",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is the capital city of the Netherlands?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Amsterdam", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Rotterdam", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "The Hague", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Utrecht", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which Dutch painter is famous for works such as 'The Night Watch' and 'The Starry Night'?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Vincent van Gogh", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Johannes Vermeer", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Rembrandt van Rijn", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Hieronymus Bosch", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What is the name of the Dutch national anthem?",
+        "options": [
+          { "id": 1, "label": "A", "text": "God Save the Queen", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Deutschlandlied", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Wilhelmus", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "La Marseillaise", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which Dutch city is renowned for its historic canals and narrow houses?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Rotterdam", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "The Hague", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Utrecht", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Amsterdam", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What is the name of the Dutch currency?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Euro", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Pound", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Dollar", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Guilder", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "What flower is often associated with the Netherlands and is celebrated during the annual Keukenhof Flower Exhibition?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Tulip", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Rose", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Daisy", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Lily", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Which Dutch football club is based in Amsterdam and is known as 'The Jews' by their fans?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Feyenoord", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "PSV Eindhoven", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Ajax", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "AZ Alkmaar", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "What is the name of the Dutch royal family's residence in The Hague?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Het Loo Palace", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Noordeinde Palace", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Huis ten Bosch Palace", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Royal Palace Amsterdam", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Which Dutch scientist is credited with the invention of the microscope?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Antonie van Leeuwenhoek", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Christiaan Huygens", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Rene Descartes", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Hugo de Groot", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "What traditional Dutch snack consists of raw herring served with chopped onions and pickles?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Stroopwafel", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Bitterballen", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Patat", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Haring", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "img": "https://images.pexels.com/photos/13246954/pexels-photo-13246954.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "name": "Famous Movies",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which movie features the character Tony Stark?",
+        "options": [
+          { "id": 1, "label": "A", "text": "The Lord of the Rings", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "The Dark Knight", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Iron Man", "isCorrect": true },
+          { "id": 4, "label": "D", "text": "Jurassic Park", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Who directed the movie 'Inception'?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Christopher Nolan", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Steven Spielberg", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "James Cameron", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Quentin Tarantino", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which movie won the Academy Award for Best Picture in 1994?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Forrest Gump", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Pulp Fiction", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "The Shawshank Redemption", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Schindler's List", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which actor played the character Jack Dawson in the movie 'Titanic'?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Leonardo DiCaprio", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Brad Pitt", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Tom Hanks", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Johnny Depp", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Which movie features a character named Harry Potter?",
+        "options": [
+          { "id": 1, "label": "A", "text": "The Hunger Games", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Lord of the Rings", "isCorrect": false },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Harry Potter and the Sorcerer's Stone",
+            "isCorrect": true
+          },
+          { "id": 4, "label": "D", "text": "Twilight", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Who directed the movie 'Avatar'?",
+        "options": [
+          { "id": 1, "label": "A", "text": "James Cameron", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Peter Jackson", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Christopher Nolan", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Martin Scorsese", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Which movie features the character Darth Vader?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Star Wars: A New Hope", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "The Empire Strikes Back", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Jurassic Park", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "The Godfather", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Which movie is based on a novel by J.K. Rowling?",
+        "options": [
+          { "id": 1, "label": "A", "text": "The Lord of the Rings", "isCorrect": false },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Harry Potter and the Philosopher's Stone",
+            "isCorrect": true
+          },
+          { "id": 3, "label": "C", "text": "The Hunger Games", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Twilight", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Which movie won the Academy Award for Best Animated Feature in 2001?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Finding Nemo", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Shrek", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Toy Story", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "The Incredibles", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Who played the lead role in the movie 'The Matrix'?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Keanu Reeves", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Tom Cruise", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Brad Pitt", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Johnny Depp", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "img": "https://images.pexels.com/photos/820735/pexels-photo-820735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "name": "History",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Who was the first President of the United States?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Thomas Jefferson", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "George Washington", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Abraham Lincoln", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "John Adams", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which ancient civilization built the Great Pyramid of Giza?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Roman Empire", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Persian Empire", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Ancient Greeks", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Ancient Egyptians", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which year did World War I begin?",
+        "options": [
+          { "id": 1, "label": "A", "text": "1914", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "1918", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "1939", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "1941", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Who was the longest-reigning monarch in British history?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Queen Victoria", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Queen Elizabeth II", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "King Henry VIII", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "King George III", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What year did the Berlin Wall fall?",
+        "options": [
+          { "id": 1, "label": "A", "text": "1989", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "1991", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "1990", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "1987", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Who was the first emperor of Rome?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Julius Caesar", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Augustus", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Nero", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Caligula", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Which battle is considered the turning point of World War II in Europe?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Battle of Stalingrad", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Battle of Midway", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Battle of the Bulge", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Battle of Britain", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Who was the first woman to fly solo across the Atlantic Ocean?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Amelia Earhart", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Bessie Coleman", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Harriet Quimby", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Jacqueline Cochran", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Who was the first man to walk on the moon?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Neil Armstrong", "isCorrect": true },
+          { "id": 2, "label": "B", "text": "Buzz Aldrin", "isCorrect": false },
+          { "id": 3, "label": "C", "text": "Alan Shepard", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Yuri Gagarin", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Who was the first female Prime Minister of the United Kingdom?",
+        "options": [
+          { "id": 1, "label": "A", "text": "Theresa May", "isCorrect": false },
+          { "id": 2, "label": "B", "text": "Margaret Thatcher", "isCorrect": true },
+          { "id": 3, "label": "C", "text": "Angela Merkel", "isCorrect": false },
+          { "id": 4, "label": "D", "text": "Indira Gandhi", "isCorrect": false }
         ]
       }
     ]

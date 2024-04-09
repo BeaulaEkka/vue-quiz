@@ -1,6 +1,7 @@
 <script setup>
 const { questionStatus, barpercentage } = defineProps(['questionStatus', 'barpercentage'])
 </script>
+
 <template>
   <header>
     <h4>Question {{ questionStatus }}</h4>
@@ -16,14 +17,15 @@ header {
   font-size: 30px;
 }
 .bar {
-  height: 20px;
+  height: 10px;
   width: 100%;
-  border: 1px solid bisque;
+  border: 1px solid #f6c7eb;
+  border-radius: 0.5rem;
 }
 .completion {
   height: 100%;
   width: 0%;
-  background-color: bisque;
+  background-color: #ffd8f6;
 }
 @media only screen and (max-width: 600px) {
   .bar {

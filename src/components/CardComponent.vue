@@ -13,7 +13,10 @@ const navigateToQuiz = () => {
     <img :src="quiz.img" alt="math pic" />
     <div class="card-text">
       <h2>{{ quiz.name }}</h2>
-      <p>{{ quiz.questions.length }}</p>
+      <div class="card_sub_text">
+        <p>{{ quiz.questions.length }} Questions</p>
+        <p>Quiz</p>
+      </div>
     </div>
   </div>
 </template>
@@ -34,8 +37,17 @@ const navigateToQuiz = () => {
   margin: 0;
   object-fit: cover;
 }
+.card_sub_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .card .card-text {
-  padding: 10px 10px;
+  padding: 5px 15px;
+}
+.card .card-text p {
+  color: rgb(163, 163, 163);
+  font-size: medium;
 }
 .card .card-text h2 {
   font-weight: bold;

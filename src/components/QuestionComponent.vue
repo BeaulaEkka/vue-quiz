@@ -1,9 +1,37 @@
 <script setup>
+import { ref } from 'vue'
 const { question } = defineProps(['question'])
 const emit = defineEmits(['selectOption'])
 
 const emitSelectedOption = (isCorrect) => {
   emit('selectOption', isCorrect)
+}
+
+const showFeedback = ref(false)
+const feedback = ref('')
+const checkAnswer = (option) => {
+  if (!option.isCorrect) {
+    showFeedback.value = true
+    feedback.value =
+      'Oh no, that was wrong. The correct answer is: ' +
+      question.options.find((opt) => opt.isCorrect).text
+  } else {
+    showFeedback.value = true
+    feedback.value = 'Correct!'
+  }
+
+  // Delay clearing the feedback after 1 second
+  setTimeout(() => {
+    showFeedback.value = false
+    feedback.value = ''
+
+    // Delay navigation to the next page after 1 second if feedback is cleared
+    setTimeout(() => {
+      // Navigate to the next page here
+      // For example:
+      // router.push('/next-page')
+    }, 500)
+  }, 500)
 }
 </script>
 
@@ -15,12 +43,20 @@ const emitSelectedOption = (isCorrect) => {
         class="option-box"
         v-for="option in question.options"
         :key="option.id"
-        @click="emitSelectedOption(option.isCorrect)"
+        @click="
+          () => {
+            checkAnswer(option)
+            emitSelectedOption(option.isCorrect)
+          }
+        "
       >
-        <p class="option-label">{{ option.label }}</p>
-        <p class="option-value">{{ option.text }}</p>
+        <div class="option_box_individual">
+          <p class="option-label">{{ option.label }}</p>
+          <p class="option-value">{{ option.text }}</p>
+        </div>
       </div>
     </div>
+    <p v-if="showFeedback" class="feedback_box">{{ feedback }}</p>
   </div>
 </template>
 
@@ -47,17 +83,29 @@ const emitSelectedOption = (isCorrect) => {
   font-size: 30px;
   justify-content: center;
   align-items: center;
-  background-color: bisque;
+  background-color: hsl(305, 67%, 83%);
   display: flex;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .option-value {
-  background-color: rgb(244, 239, 239);
+  background-color: hsl(27, 84%, 83%);
   font-size: 30px;
   padding-left: 20px;
   width: 100%;
   display: flex;
   align-items: center;
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.feedback_box {
+  margin: 2rem;
+  color: lightgrey;
+}
+.option_box_individual {
+  display: flex;
+  width: 100%;
 }
 /* Media Queries for Mobile */
 @media only screen and (max-width: 600px) {
@@ -70,10 +118,15 @@ const emitSelectedOption = (isCorrect) => {
 
   .option-label {
     font-size: 18px;
+    margin-top: 1rem;
   }
 
   .option-value {
     font-size: 18px;
+    margin-top: 1rem;
+  }
+  .option_box_individual {
+    margin-bottom: 1rem;
   }
 }
 /* Media Queries for iPad */
@@ -91,6 +144,9 @@ const emitSelectedOption = (isCorrect) => {
 
   .option-value {
     font-size: 25px;
+  }
+  .option_box_individual {
+    margin-bottom: 1rem;
   }
 }
 </style>
