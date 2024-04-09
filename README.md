@@ -1,6 +1,6 @@
 # vue-quiz
 
-![vue-quiz](./src/assets/images/vue-quiz.jpg)
+![vue-quiz](./src/assets/images/vue-quiz.jpeg)
 
 # Live Site
 
